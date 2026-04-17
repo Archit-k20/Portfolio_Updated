@@ -6,7 +6,7 @@ import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   const resumeDownloadLink =
-    "https://drive.google.com/uc?export=download&id=1mv3NRZ313AWiRVxMIi6txOmhksgkkW2h";
+    "https://drive.google.com/file/d/1jrCiNDgNz-BPgNHK-8IXtPFoWQvim-v1/view?usp=sharing";
 
   
   return (
