@@ -19,8 +19,6 @@ import {
   climateRiskDashboard,
   GenAI,
   genAiMultimodalDashboard,
-  project2,
-  project3,
   aws,
   figma,
   framer,
@@ -44,7 +42,6 @@ const aiDoctorImg = Health;
 const climateRiskImg = climateRiskDashboard;
 const adTargetProImg = Ad_Management;
 const genAiAssistantImg = genAiMultimodalDashboard;
-const crmAnalyticsImg = project2;
 
 export const navLinks = [
   {
@@ -281,32 +278,6 @@ const projects = [
     ],
     image: aiDoctorImg,
     source_code_link: "https://github.com/Lamstersickness/AI-Powered-Health-Prediction-Web-App",
-    live_demo_link: "",
-  },
-  {
-    name: "CRM Analytics Dashboard",
-    description:
-      "A business analytics dashboard that tracks the sales lifecycle, manages customer data, and visualizes pipeline and conversion performance in one place.",
-    tags: [
-      {
-        name: "python",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "streamlit",
-        color: "green-text-gradient",
-      },
-      {
-        name: "sqlalchemy",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "data-engineering",
-        color: "orange-text-gradient",
-      },
-    ],
-    image: crmAnalyticsImg,
-    source_code_link: "https://github.com/Lamstersickness",
     live_demo_link: "",
   },
 ];
