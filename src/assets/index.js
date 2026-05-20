@@ -14,6 +14,7 @@ import docker from "./tech/docker.png";
 import Health from './Health.png';
 import Ad_Management from './Ad_Management.png';
 import climateRiskDashboard from "./climate-risk-dashboard.png";
+import crmAnalyticsDashboard from "./crm-analytics-dashboard.png";
 import GenAI from './GenAI.png';
 import genAiMultimodalDashboard from "./genai-multimodal-dashboard.png";
 import inventoryReservationDashboard from "./inventory-reservation-dashboard.png";
@@ -48,6 +49,7 @@ export {
   Health,
   Ad_Management,
   climateRiskDashboard,
+  crmAnalyticsDashboard,
   GenAI,
   genAiMultimodalDashboard,
   inventoryReservationDashboard,

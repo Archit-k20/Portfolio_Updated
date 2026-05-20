@@ -143,12 +143,14 @@ const Works = () => {
 
   const getProjectCardClassName = (index) => {
     const baseClass = "project-card h-full w-full lg:col-span-2";
+    const shouldCenterLastTwo = projects.length % 3 === 2;
+    const firstCenteredIndex = projects.length - 2;
 
-    if (index === 3) {
+    if (shouldCenterLastTwo && index === firstCenteredIndex) {
       return `${baseClass} lg:col-start-2`;
     }
 
-    if (index === 4) {
+    if (shouldCenterLastTwo && index === firstCenteredIndex + 1) {
       return `${baseClass} lg:col-start-4`;
     }
 
