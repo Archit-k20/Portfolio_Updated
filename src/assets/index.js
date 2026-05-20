@@ -16,6 +16,7 @@ import Ad_Management from './Ad_Management.png';
 import climateRiskDashboard from "./climate-risk-dashboard.png";
 import GenAI from './GenAI.png';
 import genAiMultimodalDashboard from "./genai-multimodal-dashboard.png";
+import inventoryReservationDashboard from "./inventory-reservation-dashboard.png";
 import mysql from './tech/mysql.png';
 import postgresql from "./tech/postgresql.png";
 import express from './tech/express.png';
@@ -49,6 +50,7 @@ export {
   climateRiskDashboard,
   GenAI,
   genAiMultimodalDashboard,
+  inventoryReservationDashboard,
   mysql,
   express,
   aws,

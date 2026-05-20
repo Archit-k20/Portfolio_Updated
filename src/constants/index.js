@@ -19,6 +19,7 @@ import {
   climateRiskDashboard,
   GenAI,
   genAiMultimodalDashboard,
+  inventoryReservationDashboard,
   aws,
   figma,
   framer,
@@ -42,6 +43,7 @@ const aiDoctorImg = Health;
 const climateRiskImg = climateRiskDashboard;
 const adTargetProImg = Ad_Management;
 const genAiAssistantImg = genAiMultimodalDashboard;
+const inventoryReservationImg = inventoryReservationDashboard;
 
 export const navLinks = [
   {
@@ -252,6 +254,32 @@ const projects = [
     ],
     image: adTargetProImg,
     source_code_link: "https://github.com/Lamstersickness/AdTargetPro",
+    live_demo_link: "",
+  },
+  {
+    name: "Inventory Reservation System",
+    description:
+      "A production-style inventory backend and React dashboard that lets users create products, reserve stock, confirm orders, release reservations, and safely handle failed order flows without overselling.",
+    tags: [
+      {
+        name: "java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "spring-boot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "postgresql",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "kafka",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: inventoryReservationImg,
+    source_code_link: "https://github.com/Archit-k20/Inventory-Reservation-System",
     live_demo_link: "",
   },
   {
